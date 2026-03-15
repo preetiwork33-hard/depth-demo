@@ -31,10 +31,10 @@ To run your first program, follow these steps in your terminal:
 Write Code: Create a file named Demo.java.
 Compile: Use the command javac Demo.java. This generates Demo.Class (Bytecode)
 Run: Use the command java Demo. This triggers the JVM to execute the bytecode and show your output
-
+ 
 `// Example: Demo.java
 public class Demo {
 public static void main(String[] args) {
 System.out.println("Hello World");
-}
+   }
 }`
