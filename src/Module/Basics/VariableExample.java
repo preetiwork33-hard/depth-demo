@@ -29,8 +29,6 @@ public class VariableExample {
         System.out.println("char_Value = " + char_Value1);
         /*we also provide binary octal and hexadecimal values inside these datatypes
         * Note: As a developer we hardly use that numbers always work with DecimalNumbers*/
-        /** @see
-         */
         int  binaryValue= 0b101 ;//->binary of 5 but without the predefined keyword for binary(0b)
         System.out.println("binaryValue = " + binaryValue);
         byte octal_value=05;//range{0-7 after use conversion processes}
