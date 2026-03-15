@@ -58,6 +58,7 @@ Readability: Use underscores in large numbers to make them readable (e.g., long 
 Binary/Hex Support: You can assign values using different number systems
 See the implementation here:
 https://github.com/preetiwork33-hard/depth-demo/blob/master/src/Module/Basics/VariableExample.java#L32
+
 [range of the datatypes ](img.png)
 Static Typing
 Java is statically typed, meaning you must declare the data type (int, float, etc.) before the code compiles so the system knows exactly how much memory to allocate
