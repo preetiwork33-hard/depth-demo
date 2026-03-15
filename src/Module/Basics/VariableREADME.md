@@ -55,11 +55,6 @@
 Pro-Tips for Developers
 Readability: Use underscores in large numbers to make them readable (e.g., long population = 1_000_000_000;). The compiler ignores them
 .
-Binary/Hex Support: You can assign values using different number systems 
-:
-0b for Binary (e.g., 0b101 is 5)
-.
-0 for Octal (e.g., 05)
-.
-0x for Hexadecimal (e.g., 0xF is 15)
-.
+Binary/Hex Support: You can assign values using different number systems
+See the implementation here:
+https://github.com/preetiwork33-hard/depth-demo/blob/master/src/Module/Basics/VariableExample.java
