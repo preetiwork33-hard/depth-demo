@@ -1,3 +1,4 @@
+   Internal Architecture of Java 
 1. **What is the difference between JVM, JRE, and JDK?**
    Think of these as concentric circles, each building upon the other:
    JVM (Java Virtual Machine): The core engine. It takes bytecode and converts it into machine code that your specific processor understands
