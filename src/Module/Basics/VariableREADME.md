@@ -57,4 +57,32 @@ Readability: Use underscores in large numbers to make them readable (e.g., long 
 .
 Binary/Hex Support: You can assign values using different number systems
 See the implementation here:
-https://github.com/preetiwork33-hard/depth-demo/blob/master/src/Module/Basics/VariableExample.java
+https://github.com/preetiwork33-hard/depth-demo/blob/master/src/Module/Basics/VariableExample.java#L32
+[range of the datatypes ](img.png)
+Static Typing
+Java is statically typed, meaning you must declare the data type (int, float, etc.) before the code compiles so the system knows exactly how much memory to allocate
+
+# Advanced: The Logic of Negative Numbers
+Java represents negative numbers using Two's Complement
+Here is the internal process for storing -42 in a byte:
+Ignore the sign: Find the binary of +42 (00101010)
+First Complement (1's): Invert all bits (11010101)
+Second Complement (2's): Add 1 to the result (11010110)
+Concept Clarity: The Most Significant Bit (MSB)—the leftmost bit—acts as the sign indicator. If it is 1, the number is negative; if 0, it is positive
+
+**Floating Point Internals (IEEE 754)**
+Why 0.7f is not exactly 0.7
+When you store a number like 0.7f, it cannot be perfectly represented in binary and results in an infinite repeating pattern
+. Java truncates this data to fit into 32 bits, leading to slight precision errors (e.g., 0.6999999...)
+.
+**The 32-bit Memory Layout**
+A float is divided into three parts based on the IEEE 754 standard
+
+Sign Bit (1 bit): Defines positive or negative
+Exponent (8 bits): Stored with a Bias of 127 to ensure the stored exponent is always positive for the processor
+Mantissa (23 bits): Stores the actual fractional digits
+Retrieval Formula
+To get the value back, Java uses: (−1)
+sign
+×(1+Mantissa)×2
+(Exponent−Bias)
