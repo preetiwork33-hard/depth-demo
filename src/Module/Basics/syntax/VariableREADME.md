@@ -81,3 +81,7 @@ To get the value back, Java uses: (−1)
 sign
 ×(1+Mantissa)×2
 (Exponent−Bias)
+
+#### Escape sequences 
+[symbols of escape sequence](escapesequence.png)
+https://github.com/preetiwork33-hard/depth-demo/blob/master/src/Module/Basics/VariableExample.java#L36
