@@ -1,4 +1,4 @@
-package Module.Basics;
+package Module.Basics.casting;
 
 public class Casting {
     static void main() {
@@ -27,10 +27,6 @@ public class Casting {
         int given_value = 130;
         byte find_value = (byte) given_value;
         System.out.println("find_value = " + find_value);// Output:-126;why ?
-
-
-
-
 
     }
 }

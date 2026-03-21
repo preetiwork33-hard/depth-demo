@@ -1,6 +1,4 @@
-package Module.Basics;
-
-import javax.lang.model.SourceVersion;
+package Module.Basics.syntax;
 
 public class VariableExample {
     static void main() {
@@ -35,6 +33,11 @@ public class VariableExample {
         System.out.println("octal_value = " + octal_value);
         long hexadecimal_value = 0xC;//0x for hexadecimal in range {0-9 to A-F}
         System.out.println("hexadecimal_value = " + hexadecimal_value);//output:hexadecimal_value = 12
+        //Sequence characters
+        String str ="my name is \nPreeti ";
+        System.out.println("str = " + str);
+        String str1 =" value of \'a 286 my name   \tis \\Preeti ";
+        System.out.println("str1 = " + str1);
 
 
 
