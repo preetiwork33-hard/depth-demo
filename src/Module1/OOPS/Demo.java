@@ -10,4 +10,14 @@ public class Student {
      System.out.println("Student ID is "+id);
 
  }
+@Override
+ public String toString(){
+  return  "{" +
+          "name='" + name + '\'' +
+          ", age=" + age +
+          ", roll_Number=" + roll_Number +
+          ", college='" + college + '\'' +
+          '}';
+}
+
 }
