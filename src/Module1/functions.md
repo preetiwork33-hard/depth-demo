@@ -11,11 +11,10 @@ return a+b;
 static int sum(int b,int a){
 return a+b;
 }`
-* not valid overloading always use different type in same no or different numbers of parameters 
-* 
+* not valid overloading always use different type in same no or different numbers of parameters
 * different return type not validate the overloading
   https://github.com/preetiwork33-hard/depth-demo/blob/master/src/Module1/Overloading.java#L11,L16
-* 
+
 
 
 
