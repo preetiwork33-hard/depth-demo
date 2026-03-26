@@ -8,12 +8,14 @@ public class Overloading {
         print();
     }
     //user want some interesting addition with same numbers but different orders
-   static int sum(int a,int b){
+/*   static int sum(int a,int b){
        return a+b;
     }
     static void sum(int b,int a){
         System.out.println(a+b);
     }
+    try this code its show error
+    */
         static void sum(String name ,int a){
         System.out.println("name = " + name+" "+a);
     }
@@ -21,6 +23,7 @@ public class Overloading {
         return a+b+c;
     }
     //Function changing
+    /*recursion also a udated version of function changing*/
     static void print(){
         System.out.println("hello am \"Preeti here");
           print1();
@@ -35,5 +38,7 @@ public class Overloading {
         System.out.println("meet my friend Raman");
         print3();
     }
+
+
 
 }
