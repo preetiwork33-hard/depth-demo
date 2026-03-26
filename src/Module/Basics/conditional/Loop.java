@@ -1,18 +1,16 @@
-package Module.Basics.Conditional;
-
+package Module.Basics.conditional;
 import java.util.Scanner;
-
+/*Loops */
 public class Loop {
     static void main() {
-        /*Loops */
         //for loop
         for (int i = 0; i < 10; i++) {
             System.out.println("i = " + i);
         }
+
         //while loop
-
         Scanner scanner = new Scanner(System.in);
-
+     //Balance validation by While loop
         int count = 0;
 /*        while (count < 3) {
             double balance = 2000;
@@ -32,7 +30,7 @@ public class Loop {
         System.out.println("your attempt is finished try again" + count);
         //do While loop
      /*   do {
-            System.out.println("execute once at least");
+            System.out.println("show menu");
             count++;
         } while (count > 4);*/
 
@@ -48,6 +46,10 @@ public class Loop {
         }*/
 /*        for (;;) {
             System.out.println("Infinite");
+        }*/
+        /*        while(true){
+            System.out.println();
+            count++;
         }*/
         //reverse loop
         for (int i = 5; i >= 0; i--) {

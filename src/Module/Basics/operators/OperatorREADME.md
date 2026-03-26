@@ -17,7 +17,8 @@ Types:
  | `*`      | Multiplication    
  | `/`      | Division            
  | `%`      | Modulus (remainder) Dividend ÷ Divisor = Quotient + Remainder
- https://github.com/preetiwork33-hard/depth-demo/blob/master/src/Module/Basics/VariableExample.java#L5
+ [Arithmetic Operators](https://github.com/preetiwork33-hard/depth-demo/blob/master/src/Module/Basics/operators/Operators.java#L4-L10)
+
  Assignment Operator (=)
  Store the value on the right side into the variable on the left side
 ` int x = 5;
@@ -35,7 +36,8 @@ To reduce code length, languages introduced compound assignment operators.
  | `*=`     | `x = x * value`       |
  | `/=`     | `x = x / value`       |
  | `%=`     | `x = x % value`       |
- https://github.com/preetiwork33-hard/depth-demo/blob/master/src/Module/Basics/VariableExample.java#L14
+ [Compound Operators](https://github.com/preetiwork33-hard/depth-demo/blob/master/src/Module/Basics/operators/Operators.java#L11-L17)
+
  **Increment Operator ++**
  The increment operator increases a variable value by 1.
 ` int i = 5;
@@ -51,7 +53,8 @@ To reduce code length, languages introduced compound assignment operators.
  **Prefix vs Postfix Increment**
  most confusing concepts in Operator Segment
 check code
- https://github.com/preetiwork33-hard/depth-demo/blob/master/src/Module/Basics/VariableExample.java#L20
+ [Postfix Prefix ](https://github.com/preetiwork33-hard/depth-demo/blob/master/src/Module/Basics/operators/Operators.java#L18-L25)
+
  perform operation first and second use value.  
 ` int postfix_value= 123+value++;`
  use value first then perform operation.
@@ -66,16 +69,13 @@ check code
  | `>`      | Greater than          | `a > b`  | true if larger           |
  | `<=`     | Less than or equal    | `a <= b` | true if smaller or equal |
  | `>=`     | Greater than or equal | `a >= b` | true if larger or equal  |
- https://github.com/preetiwork33-hard/depth-demo/blob/master/src/Module/Basics/VariableExample.java#L30
+ [write sourcecode ](https://github.com/preetiwork33-hard/depth-demo/blob/master/src/Module/Basics/operators/Operators.java#L27-L31)
+
  **Relational operators are heavily used in:**
  Conditional Statements
  decision-making
  loops
  program logic
- 
- 
-
- 
- 
- 
- 
+//Ternary Operator :Optimized version of if-else  we have to condition as true or false give boolean result on the basis of expression outcome like 
+Syntax:
+ [Ternary Operator](https://github.com/preetiwork33-hard/depth-demo/blob/master/src/Module/Basics/operators/Operators.java#L52-L56)

@@ -1,8 +1,8 @@
-package Module.Basics.Conditional;
+package Module.Basics.conditional;
 
 import java.util.Scanner;
 
-public class Decisionmaking {
+public class DecisionMaking {
 
     public static void main(String[] args) {
 
@@ -20,7 +20,6 @@ public class Decisionmaking {
         } else {
             System.out.println("n is odd");
         }
-
         //  If-Else Ladder (Grading System)
         System.out.println("Enter marks:");
         int marks = scanner.nextInt();

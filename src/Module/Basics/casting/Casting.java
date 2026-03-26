@@ -15,7 +15,7 @@ public class Casting {
     /*Type Promotion */
         byte promote_value1 = 10;
         byte promote_value2 = 20;
-        int result = promote_value1 + promote_value2;//if try to store the esult in byte it's show error
+        int result = promote_value1 + promote_value2;//if try to store the result in byte it's show error
     /*Casting in objects */
         //Upcasting
         class Animal {}
@@ -27,6 +27,11 @@ public class Casting {
         int given_value = 130;
         byte find_value = (byte) given_value;
         System.out.println("find_value = " + find_value);// Output:-126;why ?
-
+       //byte caution
+        byte b=17;
+       // byte resultByte=b*2; //its show error 
+        //solution is 
+        int result_Byte= b*2+123;
+        System.out.println("result_Byte = " + result_Byte);
     }
 }

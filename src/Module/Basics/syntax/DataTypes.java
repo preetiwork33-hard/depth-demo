@@ -1,8 +1,8 @@
 package Module.Basics.syntax;
-
-public class VariableExample {
+/*Datatypes in java*/
+public class DataTypes {
     static void main() {
-        /*Datatypes in java*/
+
         //Integers-> byte,short,int ,long
         byte byte_value=122;
         System.out.println("byte_Value = " + byte_value);

@@ -11,6 +11,7 @@
    int (32-bit): The standard choice for integers.
    long (64-bit): Reserved for massive values (quadrillions).
 
+[Integer dataType](https://github.com/preetiwork33-hard/depth-demo/blob/master/src/Module/Basics/syntax/DataTypes.java#L6-L14)
 3. What is the difference between "Declaring" and "Defining" a variable?
    Declaration: Telling the computer a variable exists and what its type is (e.g., int x;)
    Definition: Assigning a specific value to that variable (e.g., x = 5;)
@@ -19,7 +20,7 @@
 4. Can I name my variables anything?
    No. You must avoid Keywords. These are 68 reserved words (like public, static, class) that Java uses for its internal logic
     You cannot use these for your own naming
---------------------------------------------------------------------------------
+
  Advanced Insights: Deep Dive into Java Internals
 1. Why is a byte range specifically -128 to 127?
    Java uses signed numbers, meaning the 8 bits of a byte are divided to represent both positive and negative values
@@ -32,6 +33,8 @@
    Precision: double offers "Double Precision," which is vital for scientific calculations
    Hardware Optimization: Modern processors are specifically optimized for double calculations, often making them faster than float in real-world performance
    Java Defaults: Most built-in Java math functions (like sin or cos) return double values.
+**Syntax:**
+   [floating_number dataType](https://github.com/preetiwork33-hard/depth-demo/blob/master/src/Module/Basics/syntax/DataTypes.java#L18-L22)
 
 3. How does Java handle international characters compared to older languages?
    Older languages like C used the ASCII standard (8-bit), which only covered basic English characters
@@ -45,14 +48,14 @@
    because maximum no of OS is optimized for double values so java by default consider double without **f** literal
    `float f= 23.1232f;`
  
---------------------------------------------------------------------------------
+
 Tips for Developers
 Readability: Use underscores in large numbers to make them readable (e.g., long population = 1_000_000_000;). The compiler ignores them
 Binary/Hex Support: You can assign values using different number systems
 See the implementation here:
-https://github.com/preetiwork33-hard/depth-demo/blob/master/src/Module/Basics/VariableExample.java#L32
-
-[range of the datatypes ](../casting/img.png)
+[](https://github.com/preetiwork33-hard/depth-demo/blob/master/src/Module/Basics/syntax/DataTypes.java#L5-L7)
+**visuals:**
+[range of the datatypes ](img.png)
 
 Static Typing
 Java is statically typed, meaning you must declare the data type (int, float, etc.) before the code compiles so the system knows exactly how much memory to allocate
@@ -81,8 +84,11 @@ To get the value back, Java uses: (−1)
 sign
 ×(1+Mantissa)×2
 (Exponent−Bias)
+**Number systems:**
+[another NumberSystems](https://github.com/preetiwork33-hard/depth-demo/blob/master/src/Module/Basics/syntax/DataTypes.java#L28-L35)
 
 #### Escape sequences  
 use for the specific string output 
 [symbols of escape sequence](escapesequence.png)
-https://github.com/preetiwork33-hard/depth-demo/blob/master/src/Module/Basics/VariableExample.java#L36
+Syntax:
+[Escape sequence code ](https://github.com/preetiwork33-hard/depth-demo/blob/master/src/Module/Basics/syntax/DataTypes.java#L36-L40)

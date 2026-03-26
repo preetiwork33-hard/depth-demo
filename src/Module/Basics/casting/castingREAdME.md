@@ -41,7 +41,8 @@ like all integer value convert to int to long
 byte → short → int → long → float → double
 ```
 ### Example
-[See Example](https://github.com/preetiwork33-hard/depth-demo/blob/master/src/Module/Basics/casting/Casting.java#L6-L10)
+
+[Implicit casting](https://github.com/preetiwork33-hard/depth-demo/blob/master/src/Module/Basics/casting/Casting.java#L5-L7)
 Because:
 * Smaller type → larger type
 * No data loss occurs.
@@ -53,7 +54,8 @@ Because:
 When a **larger data type is converted into a smaller data type manually**, it is called **Narrowing Casting**.
 
 This conversion must be done **explicitly by the programmer**.
-https://github.com/preetiwork33-hard/depth-demo/blob/master/src/Module/Basics/casting/Casting.java#L9
+source code :
+[Narrowing casting ](https://github.com/preetiwork33-hard/depth-demo/blob/master/src/Module/Basics/casting/Casting.java#L8-L14)
 
 ### Important Point
 
@@ -65,16 +67,14 @@ This is called **data loss**.
 # 5. Type Promotion During Expressions
 
 When Java performs arithmetic operations, smaller data types are **automatically promoted to int**.
-https://github.com/preetiwork33-hard/depth-demo/blob/master/src/Module/Basics/casting/Casting.java#L15
-
+source code :
+[Type promotion](https://github.com/preetiwork33-hard/depth-demo/blob/master/src/Module/Basics/casting/Casting.java#L15-L18)
 
 ### Why Result Is int?
 
 Because Java automatically promotes `byte` and `short` to **int** during arithmetic operations.
 
-
 # 6. Real World Analogy
-
 Imagine you have a **small bottle and a big bottle**.
 
 ### Widening Casting
@@ -94,25 +94,24 @@ Type casting also happens in **inheritance**. Don't worry we learn inheritance i
 Example:
 
 ### Upcasting
-https://github.com/preetiwork33-hard/depth-demo/blob/master/src/Module/Basics/casting/Casting.java#L21
-
-
 Here a **child object is stored in a parent reference**.
-
 This is called **Upcasting**.
-
 ### Downcasting
-https://github.com/preetiwork33-hard/depth-demo/blob/master/src/Module/Basics/casting/Casting.java#L24
+source code :
+[Down or Upcasting in Object casting](https://github.com/preetiwork33-hard/depth-demo/blob/master/src/Module/Basics/casting/Casting.java#L15-L18)
 
 # 8. Common Mistakes
+source code:
+[Byte error](https://github.com/preetiwork33-hard/depth-demo/blob/master/src/Module/Basics/casting/Casting.java#L30-L35)
+comment the code line due to error why because in java all expression solve in huge data of the expressions byte resolve this expression in int so we not store result in byte  
+
 ### 2. Unexpected Data Loss
 reason :  java forget all extra bits only keep last significant bits of Target type For positive numbers, we used the
 formula: Result = Value % Range of Target Type
 Example: A byte has 256 possible values. If you cast the integer 300 to a byte, the calculation is 300 % 256, which equals 44
-https://github.com/preetiwork33-hard/depth-demo/blob/master/src/Module/Basics/casting/Casting.java#L26
-
+`double x = 20.99;
+int y = (int) x;`
 # 9. Key Points to Remember
-
 * Type casting converts **one data type into another**.
 * Two types:
     * **Widening (Automatic)**
@@ -123,5 +122,4 @@ https://github.com/preetiwork33-hard/depth-demo/blob/master/src/Module/Basics/ca
 * Casting also occurs in **object references** (Upcasting and Downcasting).
 
 **Conclusion**
-
 Type Casting is an important concept in Java used when converting values between different data types. Understanding the difference between **widening and narrowing casting** helps developers write safer and more predictable programs.
