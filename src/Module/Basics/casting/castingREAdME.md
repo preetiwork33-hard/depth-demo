@@ -41,7 +41,7 @@ like all integer value convert to int to long
 byte → short → int → long → float → double
 ```
 ### Example
-https://github.com/preetiwork33-hard/depth-demo/blob/master/src/Module/Basics/Casting.java#L6
+https://github.com/preetiwork33-hard/depth-demo/blob/master/src/Module/Basics/casting/Casting.java#L6
 
 ### Why It Is Safe
 Because:
@@ -55,7 +55,7 @@ Because:
 When a **larger data type is converted into a smaller data type manually**, it is called **Narrowing Casting**.
 
 This conversion must be done **explicitly by the programmer**.
-https://github.com/preetiwork33-hard/depth-demo/blob/master/src/Module/Basics/Casting.java#L9
+https://github.com/preetiwork33-hard/depth-demo/blob/master/src/Module/Basics/casting/Casting.java#L9
 
 ### Important Point
 
@@ -67,7 +67,7 @@ This is called **data loss**.
 # 5. Type Promotion During Expressions
 
 When Java performs arithmetic operations, smaller data types are **automatically promoted to int**.
-https://github.com/preetiwork33-hard/depth-demo/blob/master/src/Module/Basics/Casting.java#L15
+https://github.com/preetiwork33-hard/depth-demo/blob/master/src/Module/Basics/casting/Casting.java#L15
 
 
 ### Why Result Is int?
@@ -96,7 +96,7 @@ Type casting also happens in **inheritance**. Don't worry we learn inheritance i
 Example:
 
 ### Upcasting
-https://github.com/preetiwork33-hard/depth-demo/blob/master/src/Module/Basics/Casting.java#L21
+https://github.com/preetiwork33-hard/depth-demo/blob/master/src/Module/Basics/casting/Casting.java#L21
 
 
 Here a **child object is stored in a parent reference**.
@@ -104,14 +104,14 @@ Here a **child object is stored in a parent reference**.
 This is called **Upcasting**.
 
 ### Downcasting
-https://github.com/preetiwork33-hard/depth-demo/blob/master/src/Module/Basics/Casting.java#L24
+https://github.com/preetiwork33-hard/depth-demo/blob/master/src/Module/Basics/casting/Casting.java#L24
 
 # 8. Common Mistakes
 ### 2. Unexpected Data Loss
 reason :  java forget all extra bits only keep last significant bits of Target type For positive numbers, we used the
 formula: Result = Value % Range of Target Type
 Example: A byte has 256 possible values. If you cast the integer 300 to a byte, the calculation is 300 % 256, which equals 44
-https://github.com/preetiwork33-hard/depth-demo/blob/master/src/Module/Basics/Casting.java#L26
+https://github.com/preetiwork33-hard/depth-demo/blob/master/src/Module/Basics/casting/Casting.java#L26
 
 # 9. Key Points to Remember
 

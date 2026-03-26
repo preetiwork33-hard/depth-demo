@@ -52,7 +52,7 @@ Binary/Hex Support: You can assign values using different number systems
 See the implementation here:
 https://github.com/preetiwork33-hard/depth-demo/blob/master/src/Module/Basics/VariableExample.java#L32
 
-[range of the datatypes ](img.png)
+[range of the datatypes ](../casting/img.png)
 
 Static Typing
 Java is statically typed, meaning you must declare the data type (int, float, etc.) before the code compiles so the system knows exactly how much memory to allocate
@@ -82,6 +82,7 @@ sign
 ×(1+Mantissa)×2
 (Exponent−Bias)
 
-#### Escape sequences 
+#### Escape sequences  
+use for the specific string output 
 [symbols of escape sequence](escapesequence.png)
 https://github.com/preetiwork33-hard/depth-demo/blob/master/src/Module/Basics/VariableExample.java#L36
