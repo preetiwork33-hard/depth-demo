@@ -41,7 +41,7 @@ like all integer value convert to int to long
 byte → short → int → long → float → double
 ```
 ### Example
-https://github.com/preetiwork33-hard/depth-demo/blob/master/src/Module/Basics/casting/Casting.java#L6,L10 Why It Is Safe
+[See Example](https://github.com/preetiwork33-hard/depth-demo/blob/master/src/Module/Basics/casting/Casting.java#L6-L10)
 Because:
 * Smaller type → larger type
 * No data loss occurs.
