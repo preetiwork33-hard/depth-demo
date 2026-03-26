@@ -17,3 +17,4 @@ every object have some State and behavior(in general methods in java but in oops
 check image for the visuals:
 [Object in memory](img1.png)
 source code :
+[class implementation] https://github.com/preetiwork33-hard/depth-demo/blob/master/src/Module1/OOPS/Main.java#L3,L14
