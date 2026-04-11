@@ -14,3 +14,6 @@ we have a constructor with parameters like
 its use maths inclusive or exclusive logic of  set theory here **[0,6}**its count to 6 but execute only five characters
 we also pass the reference of string inside the StringBuilder or buffer class 
 [Strings references ](https://github.com/preetiwork33-hard/depth-demo/blob/master/src/dsaInJava/strings/Test.java#L25-30)
+
+## String Methods:string methods are the pre-built operation on string that ide suggest user by-default after. Operator but we can also do manually her source image have al, most usable methods in the of String
+[String_Methods](image.png)
